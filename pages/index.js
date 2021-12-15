@@ -23,19 +23,19 @@ export default function BasicTable() {
             </TableCell>
             <TableCell
               align="right"
-              style={{ paddingRight: "20px", color: "white", fontSize: "20px" }}
+              style={{ paddingRight: "20px", color: "white", fontSize: "24px" }}
             >
               Name
             </TableCell>
             <TableCell
               align="right"
-              style={{ paddingRight: "20px", color: "white", fontSize: "20px" }}
+              style={{ paddingRight: "20px", color: "white", fontSize: "24px" }}
             >
               Skill
             </TableCell>
             <TableCell
               align="right"
-              style={{ paddingRight: "20px", color: "white", fontSize: "20px" }}
+              style={{ paddingRight: "20px", color: "white", fontSize: "24px" }}
             >
               City
             </TableCell>
@@ -58,13 +58,22 @@ export default function BasicTable() {
               >
                 {row.id}
               </TableCell>
-              <TableCell align="right" style={{ fontWeight: "bold" }}>
+              <TableCell
+                align="right"
+                style={{ fontWeight: "bold", fontSize: "20px" }}
+              >
                 {row.name}
               </TableCell>
-              <TableCell align="right" style={{ fontWeight: "bold" }}>
+              <TableCell
+                align="right"
+                style={{ fontWeight: "bold", fontSize: "20px" }}
+              >
                 {row.skill}
               </TableCell>
-              <TableCell align="right" style={{ fontWeight: "bold" }}>
+              <TableCell
+                align="right"
+                style={{ fontWeight: "bold", fontSize: "20px" }}
+              >
                 {row.city}
               </TableCell>
             </TableRow>
